@@ -44,9 +44,10 @@
 
 .cont2, .cont3, .cont4{
     display: flex;
-    flex-direction: row;
+    //flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    
     padding-top: 20px;
 }
 
