@@ -1,0 +1,305 @@
+* {
+    background-color:#d0d0d0;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1,2em;
+}
+
+.button {
+    font-size: 1.3em;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: .5em;
+    color: darkslateblue;
+    background-color:#e0e0e0; 
+       
+}
+
+.box0 {
+    height: 20px;     
+}
+
+.box1{
+    height: 120px;
+}
+
+.corp1{
+    font-size: 1.6em;
+}
+
+.fig1, .fig2{
+   //width: 600px;
+    width: 28%;
+    background-color:#b0b0b0;
+}
+
+.unes{
+    width: 10%;
+    padding-top: 50px;
+    //background-color:#b0b0b0;
+}
+
+.cont2, .cont3, .cont4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+
+
+
+.menu{
+    
+    //background-color:#c0c0c0;
+    width: 10%;
+
+}
+
+
+
+.fig1 img, .fig2 img{
+  
+   width: 550px;
+}
+
+.fb{
+    width: 10%;
+    //background-color:#c0c0c0;
+    padding-top: 50px;
+    
+
+}
+
+.fb img{
+    width: 50px;
+    //background-color: #b0b0b0;
+    
+}
+
+.fbt{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    padding-left: 30px;
+   
+}
+
+.gg{
+    width: 10%;
+    //background-color: #b0b0b0;
+    padding-top: 10px;
+    
+    
+}
+
+.ggt{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    //background-color: #b0b0b0;
+}
+
+.carte{
+    
+    //background-color: #b0b0b0;
+    width: 67%;  
+}
+
+.carte img{
+    //width: 300px;
+}
+
+
+
+.drapeau {
+    grid-column: 3;
+    grid-row: 1/4;
+}
+
+.unesco{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    
+ 
+}
+
+.vallee{
+   
+    font-size: 1.3em;
+    font-weight: bold;
+    width: 65%;
+}
+
+.imgr{
+    width: 50px;
+}
+
+ol{
+    color: blue;
+    line-height: 1.3;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    list-style: none;
+    //background-color:#b0b0b0;
+}
+
+li a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+/*
+main {
+    display: flex;
+    width: 100%;
+}
+
+nav {
+    width: 20%;
+}
+
+main div {
+    width: 80%;
+    margin: 0;
+}
+
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0;
+}
+
+
+aside {
+    width: 20%;
+}
+
+figure {
+    display: flex;
+    margin: 0;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+p {
+    margin-top:1rem;
+}
+
+.button {
+    font-size: 1.3em;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: .5em;
+    color: darkslateblue;
+    background-color:#e0e0e0;    
+}
+
+.button2 {
+    font-size: 1.3em;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: .3em;
+    color: darkslateblue;
+    background-color:#e0e0e0;    
+}
+
+
+.marge {
+    margin: 70px 2px 70px 2px;
+    font-size: .8em;
+}
+
+.marge_2 {
+    margin: 20px;
+    
+}
+
+footer  {
+    float: center;
+    font-family: Arial ;
+}
+
+.logo {
+    margin-top: 100px;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+.pasto {
+    margin-top: 60px;
+    font-size: 1.2em;
+}
+
+.imgi {
+    width: 500px;
+    margin-left: 0px;
+    margin-right: 0px;    
+}
+
+
+<!--DIAPORAMA-->
+.d1{
+    width: 576px;
+    height: 300px;
+    margin: 50px auto;
+    box-shadow: 0px 15px 10px -5px #777;
+    background-color: #EDEDED;
+    background-size: contain;
+    animation: fondu 30s ease-in-out infinite both;
+}
+
+.conteneur{
+    max-width: 576px;
+    margin: 50px auto;
+}
+
+.d2{
+    width:100%;
+    height: 0px;
+    padding-top: 75% ;
+    box-shadow: 0px 0px 10px -5px #777;
+    background-color: #EDEDED;
+    background-size: contain;
+    animation: fondu 30s ease-in-out infinite both;
+}
+
+.d1:hover, .d2:hover{
+    animation-play-state: paused;
+}
+
+@keyframes fondu{
+    0%{background-image: url("Images/p8.jpeg");}
+    12.5%{background-image: url("Images/p1.jpeg");}
+    25%{background-image: url("Images/p2.jpeg");}
+    37.5%{background-image: url("Images/p3.jpeg");}
+    50%{background-image: url("Images/p4.jpeg");}
+    62.5%{background-image: url("Images/p5.jpeg");}
+    75%{background-image: url("Images/p6.jpeg");}
+    87.5%{background-image: url("Images/p7.jpeg");}
+    100%{background-image: url("Images/p8.jpeg");}
+
+}
+*/
