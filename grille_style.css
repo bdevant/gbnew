@@ -53,6 +53,10 @@
     padding-top: 20px;
 }
 
+.cont4{
+    //width: 90%;
+}
+
 
 
 
@@ -71,7 +75,7 @@
 }
 
 .fb{
-    width: 10%;
+    width: 200px;
     //background-color:#c0c0c0;
     padding-top: 50px;
     
@@ -92,11 +96,15 @@
 }
 
 .gg{
-    width: 10%;
+    //width: 200px;
     //background-color: #b0b0b0;
-    padding-top: 10px;
-    
-    
+    padding-top: 10px;    
+}
+
+.gg img{
+    //background-color: #b0b0b0;
+
+
 }
 
 .ggt{
@@ -107,8 +115,8 @@
 
 .carte{
     
-    //background-color: #b0b0b0;
-    width: 67%;  
+    background-color: #b0b0b0;
+    //width: 630px;  
 }
 
 .carte img{
@@ -164,6 +172,12 @@ footer{
     font-size: 1.3em;
     padding-top: 50px;
     padding-bottom: 50px;
+    //display: flex;
+    //flex-wrap: wrap;
+    //align-items: center;
+    //justify-content: center;
+    width: 100%;
+
 }
 
 
